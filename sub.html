@@ -1,0 +1,14 @@
+<html>
+<head>
+	<title>Flask Demo Sub</title>
+</head>
+<body>
+<h1>Texas Longhorns Roster</h1>
+
+    {% for roster in roster %}
+    	<p>{{roster.name}}</p>
+    	<p>{{roster.info}}</p>
+    {% endfor %}
+
+</body>
+</html>
